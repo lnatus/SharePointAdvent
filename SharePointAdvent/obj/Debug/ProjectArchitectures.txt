@@ -1,1 +1,1 @@
-C:\Users\LAN\Desktop\SharePointAdvent\SharePointAdvent\SharePointAdvent\SharePointAdvent.csproj;neutral
+C:\dev\SharePointAdvent\SharePointAdvent\SharePointAdvent.csproj;neutral

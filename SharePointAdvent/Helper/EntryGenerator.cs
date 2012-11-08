@@ -9,6 +9,7 @@ namespace SharePointAdvent.Helper
 {
     public class EntryGenerator
     {
+        private static Uri _baseUri = new Uri("ms-appx:///");
 
         public static Group GenerateArticles(List<ArticleEntry> collection)
         {
@@ -45,8 +46,9 @@ namespace SharePointAdvent.Helper
                 authors.Entries.Add(new AuthorEntry
                 {
                     Name = string.Format("Name{0}", i),
-                    Image = new Uri("http://google.de"),
-                    Topic = string.Format("Topic{0}", i)
+                    Image = new Uri(_baseUri, "Assets/th.jpg"),
+                    Topic = string.Format("Topic{0}", i),
+                    Blog = new Uri("http://dotnet-forum.de/blogs/thorstenhans/")
                 });
             }
 

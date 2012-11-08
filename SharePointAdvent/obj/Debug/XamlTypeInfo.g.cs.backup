@@ -112,11 +112,17 @@ namespace SharePointAdvent.SharePointAdvent_XamlTypeInfo
             }
         }
 
-        private object Activate_0_EntryItemTemplateSelector() { return new global::SharePointAdvent.Helper.EntryItemTemplateSelector(); }
+        private object Activate_0_BooleanToVisibilityConverter() { return new global::SharePointAdvent.Common.BooleanToVisibilityConverter(); }
 
-        private object Activate_1_LayoutAwarePage() { return new global::SharePointAdvent.Common.LayoutAwarePage(); }
+        private object Activate_1_BooleanToBackgroundConverter() { return new global::SharePointAdvent.Common.BooleanToBackgroundConverter(); }
 
-        private object Activate_2_MainPage() { return new global::SharePointAdvent.MainPage(); }
+        private object Activate_2_EntryItemTemplateSelector() { return new global::SharePointAdvent.Helper.EntryItemTemplateSelector(); }
+
+        private object Activate_3_EntryItemTemplateSelectorSnapped() { return new global::SharePointAdvent.Helper.EntryItemTemplateSelectorSnapped(); }
+
+        private object Activate_4_LayoutAwarePage() { return new global::SharePointAdvent.Common.LayoutAwarePage(); }
+
+        private object Activate_5_MainPage() { return new global::SharePointAdvent.MainPage(); }
 
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(string typeName)
@@ -126,6 +132,10 @@ namespace SharePointAdvent.SharePointAdvent_XamlTypeInfo
 
             switch (typeName)
             {
+            case "Object":
+                xamlType = new global::SharePointAdvent.SharePointAdvent_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::System.Object));
+                break;
+
             case "Windows.UI.Xaml.Controls.DataTemplateSelector":
                 xamlType = new global::SharePointAdvent.SharePointAdvent_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.DataTemplateSelector));
                 break;
@@ -138,21 +148,39 @@ namespace SharePointAdvent.SharePointAdvent_XamlTypeInfo
                 xamlType = new global::SharePointAdvent.SharePointAdvent_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.UserControl));
                 break;
 
+            case "SharePointAdvent.Common.BooleanToVisibilityConverter":
+                userType = new global::SharePointAdvent.SharePointAdvent_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::SharePointAdvent.Common.BooleanToVisibilityConverter), GetXamlTypeByName("Object"));
+                userType.Activator = Activate_0_BooleanToVisibilityConverter;
+                xamlType = userType;
+                break;
+
+            case "SharePointAdvent.Common.BooleanToBackgroundConverter":
+                userType = new global::SharePointAdvent.SharePointAdvent_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::SharePointAdvent.Common.BooleanToBackgroundConverter), GetXamlTypeByName("Object"));
+                userType.Activator = Activate_1_BooleanToBackgroundConverter;
+                xamlType = userType;
+                break;
+
             case "SharePointAdvent.Helper.EntryItemTemplateSelector":
                 userType = new global::SharePointAdvent.SharePointAdvent_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::SharePointAdvent.Helper.EntryItemTemplateSelector), GetXamlTypeByName("Windows.UI.Xaml.Controls.DataTemplateSelector"));
-                userType.Activator = Activate_0_EntryItemTemplateSelector;
+                userType.Activator = Activate_2_EntryItemTemplateSelector;
+                xamlType = userType;
+                break;
+
+            case "SharePointAdvent.Helper.EntryItemTemplateSelectorSnapped":
+                userType = new global::SharePointAdvent.SharePointAdvent_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::SharePointAdvent.Helper.EntryItemTemplateSelectorSnapped), GetXamlTypeByName("Windows.UI.Xaml.Controls.DataTemplateSelector"));
+                userType.Activator = Activate_3_EntryItemTemplateSelectorSnapped;
                 xamlType = userType;
                 break;
 
             case "SharePointAdvent.Common.LayoutAwarePage":
                 userType = new global::SharePointAdvent.SharePointAdvent_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::SharePointAdvent.Common.LayoutAwarePage), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_1_LayoutAwarePage;
+                userType.Activator = Activate_4_LayoutAwarePage;
                 xamlType = userType;
                 break;
 
             case "SharePointAdvent.MainPage":
                 userType = new global::SharePointAdvent.SharePointAdvent_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::SharePointAdvent.MainPage), GetXamlTypeByName("SharePointAdvent.Common.LayoutAwarePage"));
-                userType.Activator = Activate_2_MainPage;
+                userType.Activator = Activate_5_MainPage;
                 xamlType = userType;
                 break;
 

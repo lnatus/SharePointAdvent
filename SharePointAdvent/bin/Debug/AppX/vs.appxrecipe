@@ -13,80 +13,84 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\LAN\Desktop\SharePointAdvent\SharePointAdvent\SharePointAdvent\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-11-08T13:33:23.428</Modified>
+      <Modified>2012-11-08T15:26:07.278</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\LAN\Desktop\SharePointAdvent\SharePointAdvent\SharePointAdvent\bin\Debug\SharePointAdvent.exe">
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\SharePointAdvent.exe">
       <PackagePath>SharePointAdvent.exe</PackagePath>
-      <Modified>2012-11-08T13:51:01.371</Modified>
+      <Modified>2012-11-08T15:31:16.080</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\LAN\Desktop\SharePointAdvent\SharePointAdvent\SharePointAdvent\bin\Debug\SharePointAdvent.pdb">
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\SharePointAdvent.pdb">
       <PackagePath>SharePointAdvent.pdb</PackagePath>
-      <Modified>2012-11-08T13:51:01.353</Modified>
+      <Modified>2012-11-08T15:31:16.062</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\LAN\Downloads\Json45r10\Bin\WinRT\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2012-11-08T12:02:42.462</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\LAN\Downloads\Json45r10\Bin\WinRT\Newtonsoft.Json.pdb">
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\Newtonsoft.Json.pdb">
       <PackagePath>Newtonsoft.Json.pdb</PackagePath>
       <Modified>2012-11-08T12:02:42.512</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\LAN\Downloads\Json45r10\Bin\WinRT\Newtonsoft.Json.xml">
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\Newtonsoft.Json.xml">
       <PackagePath>Newtonsoft.Json.xml</PackagePath>
       <Modified>2012-11-08T12:02:42.539</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\LAN\Desktop\SharePointAdvent\SharePointAdvent\SharePointAdvent\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-03-15T18:42:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\LAN\Desktop\SharePointAdvent\SharePointAdvent\SharePointAdvent\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-03-15T18:42:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\LAN\Desktop\SharePointAdvent\SharePointAdvent\SharePointAdvent\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-03-15T18:42:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\LAN\Desktop\SharePointAdvent\SharePointAdvent\SharePointAdvent\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-03-15T18:42:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\LAN\Desktop\SharePointAdvent\SharePointAdvent\SharePointAdvent\Assets\LightGray.png">
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\LightGray.png">
       <PackagePath>Assets\LightGray.png</PackagePath>
       <Modified>2011-12-12T20:08:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\LAN\Desktop\SharePointAdvent\SharePointAdvent\SharePointAdvent\Assets\MediumGray.png">
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\MediumGray.png">
       <PackagePath>Assets\MediumGray.png</PackagePath>
       <Modified>2011-12-12T20:08:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\LAN\Desktop\SharePointAdvent\SharePointAdvent\SharePointAdvent\Assets\DarkGray.png">
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\DarkGray.png">
       <PackagePath>Assets\DarkGray.png</PackagePath>
       <Modified>2011-12-12T20:08:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\LAN\Desktop\SharePointAdvent\SharePointAdvent\SharePointAdvent\bin\Debug\App.xaml">
-      <PackagePath>App.xaml</PackagePath>
-      <Modified>2012-11-08T13:51:00.462</Modified>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\th.jpg">
+      <PackagePath>Assets\th.jpg</PackagePath>
+      <Modified>2012-11-08T15:23:44.314</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\LAN\Desktop\SharePointAdvent\SharePointAdvent\SharePointAdvent\bin\Debug\Common\StandardStyles.xaml">
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-11-08T15:21:53.723</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
       <Modified>2012-10-12T15:18:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\LAN\Desktop\SharePointAdvent\SharePointAdvent\SharePointAdvent\bin\Debug\MainPage.xaml">
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
       <Modified>2012-11-08T13:40:33.830</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\LAN\Desktop\SharePointAdvent\SharePointAdvent\SharePointAdvent\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-11-08T11:27:33.548</Modified>
+      <Modified>2012-11-08T15:26:07.199</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
