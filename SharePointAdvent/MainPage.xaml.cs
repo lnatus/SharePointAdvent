@@ -6,6 +6,7 @@ using Windows.UI.Xaml.Controls;
 using SharePointAdvent.Contracts;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml.Media.Imaging;
+using SharePointAdvent.Helper;
 
 // The Grouped Items Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234231
 
@@ -80,7 +81,8 @@ namespace SharePointAdvent
 
             if (e.ClickedItem is ArticleEntry)
             {
-               await Windows.System.Launcher.LaunchUriAsync(((ArticleEntry)e.ClickedItem).Url);
+               if(DateChecker.Check(((ArticleEntry)e.ClickedItem).Day))
+                 await Windows.System.Launcher.LaunchUriAsync(((ArticleEntry)e.ClickedItem).Url);
             }
 
             if (e.ClickedItem is SponsorEntry)

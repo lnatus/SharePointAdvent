@@ -105,6 +105,7 @@
     </Compile>
     <Compile Include="Common\BooleanToBackgroundConverter.cs" />
     <Compile Include="Contracts\IEntry.cs" />
+    <Compile Include="Helper\DateChecker.cs" />
     <Compile Include="Helper\EntryGenerator.cs" />
     <Compile Include="Helper\EntryItemTemplateSelector.cs" />
     <Compile Include="Helper\EntryItemTemplateSelectorSnapped.cs" />
