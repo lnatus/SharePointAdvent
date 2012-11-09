@@ -39,6 +39,9 @@
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\snapped.png">
+      <PackagePath>Assets\snapped.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>

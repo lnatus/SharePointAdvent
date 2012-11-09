@@ -4,6 +4,8 @@ using SharePointAdvent.ViewModel;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using SharePointAdvent.Contracts;
+using Windows.UI.ViewManagement;
+using Windows.UI.Xaml.Media.Imaging;
 
 // The Grouped Items Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234231
 
@@ -14,9 +16,23 @@ namespace SharePointAdvent
     /// </summary>
     public sealed partial class MainPage
     {
+
+        private BitmapImage _bi;
+
         public MainPage()
         {
+            _bi = new BitmapImage();
             this.InitializeComponent();
+            this.ApplicationViewStates.CurrentStateChanging += ApplicationViewStates_CurrentStateChanging;
+        }
+
+        private void ApplicationViewStates_CurrentStateChanging(object sender, VisualStateChangedEventArgs e)
+        {
+            _bi.UriSource = e.NewState.Name.Equals("Snapped")
+                          ? new Uri(new Uri("ms-appx:///"),"Assets/snapped.png")
+                          : new Uri(new Uri("ms-appx:///"), "Assets/bg.png");
+
+            BgBrush.ImageSource = _bi;
         }
 
         /// <summary>

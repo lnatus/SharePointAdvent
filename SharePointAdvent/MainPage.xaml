@@ -31,7 +31,7 @@
     -->
     <Grid Style="{StaticResource LayoutRootStyle}" >
         <Grid.Background>
-            <ImageBrush ImageSource="/Assets/bg.png"></ImageBrush>
+            <ImageBrush x:Name="BgBrush" ImageSource="/Assets/bg.png"></ImageBrush>
         </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="140"/>
