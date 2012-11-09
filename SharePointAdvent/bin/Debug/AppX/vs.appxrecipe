@@ -16,17 +16,17 @@
     <AppXManifest Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-11-08T15:26:07.278</Modified>
+      <Modified>2012-11-09T09:27:32.586</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\SharePointAdvent.exe">
       <PackagePath>SharePointAdvent.exe</PackagePath>
-      <Modified>2012-11-08T15:31:16.080</Modified>
+      <Modified>2012-11-09T09:27:32.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\SharePointAdvent.pdb">
       <PackagePath>SharePointAdvent.pdb</PackagePath>
-      <Modified>2012-11-08T15:31:16.062</Modified>
+      <Modified>2012-11-09T09:27:32.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -39,6 +39,10 @@
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\Newtonsoft.Json.xml">
       <PackagePath>Newtonsoft.Json.xml</PackagePath>
       <Modified>2012-11-08T12:02:42.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\bg.png">
+      <PackagePath>Assets\bg.png</PackagePath>
+      <Modified>2012-11-09T09:27:23.430</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
@@ -78,7 +82,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
-      <Modified>2012-11-08T15:21:53.723</Modified>
+      <Modified>2012-11-08T15:59:48.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
@@ -86,11 +90,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
-      <Modified>2012-11-08T13:40:33.830</Modified>
+      <Modified>2012-11-09T09:27:29.703</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-11-08T15:26:07.199</Modified>
+      <Modified>2012-11-09T09:27:32.435</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

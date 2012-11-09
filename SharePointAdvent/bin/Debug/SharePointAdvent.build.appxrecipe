@@ -28,6 +28,9 @@
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\Newtonsoft.Json.xml">
       <PackagePath>Newtonsoft.Json.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\bg.png">
+      <PackagePath>Assets\bg.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
