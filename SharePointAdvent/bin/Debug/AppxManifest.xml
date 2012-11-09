@@ -10,7 +10,7 @@
   <Identity Name="e0a3ff3a-53b2-46e2-84f3-ffc7efcba4a9" Publisher="CN=Lars" Version="1.0.0.0" ProcessorArchitecture="neutral" />
   <Properties>
     <DisplayName>SharePointAdvent</DisplayName>
-    <PublisherDisplayName>Lars</PublisherDisplayName>
+    <PublisherDisplayName>lnatus</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -18,13 +18,16 @@
     <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
   </Prerequisites>
   <Resources>
-    <Resource Language="EN-US" />
+    <Resource Language="DE-DE" />
   </Resources>
   <Applications>
     <Application Id="App" Executable="SharePointAdvent.exe" EntryPoint="SharePointAdvent.App">
-      <VisualElements DisplayName="SharePointAdvent" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="SharePointAdvent" ForegroundText="light" BackgroundColor="#464646">
-        <DefaultTile ShowName="allLogos" />
-        <SplashScreen Image="Assets\SplashScreen.png" />
+      <VisualElements DisplayName="SharePointAdvent" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="SharePointAdvent" ForegroundText="dark" BackgroundColor="#FFFFFF">
+        <DefaultTile ShowName="allLogos" ShortName="SharePointAdvent" WideLogo="Assets\WideLogo.png" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#FFFFFF" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
       </VisualElements>
     </Application>
   </Applications>
