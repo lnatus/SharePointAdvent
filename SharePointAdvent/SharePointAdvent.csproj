@@ -13,6 +13,7 @@
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <PackageCertificateKeyFile>SharePointAdvent_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -109,6 +110,7 @@
     <Compile Include="Helper\EntryGenerator.cs" />
     <Compile Include="Helper\EntryItemTemplateSelector.cs" />
     <Compile Include="Helper\EntryItemTemplateSelectorSnapped.cs" />
+    <Compile Include="Helper\StateLoader.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -123,6 +125,7 @@
     <Compile Include="ViewModel\ArticleEntry.cs" />
     <Compile Include="ViewModel\AuthorEntry.cs" />
     <Compile Include="ViewModel\Group.cs" />
+    <Compile Include="ViewModel\LotteryEntry.cs" />
     <Compile Include="ViewModel\MainPageViewModel.cs" />
     <Compile Include="ViewModel\SponsorEntry.cs" />
   </ItemGroup>
@@ -130,20 +133,38 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <PRIResource Include="Sponsors.resw" />
+    <PRIResource Include="Authors.resw" />
     <None Include="Common\ReadMe.txt" />
     <None Include="SharePointAdvent_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Authors.js" />
     <Content Include="Assets\bg.png" />
+    <Content Include="Assets\Authors\Christian_Glessner.jpg" />
+    <Content Include="Assets\Authors\Christoph_Mueller.jpg" />
+    <Content Include="Assets\Authors\Daniel_Wessels.jpg" />
+    <Content Include="Assets\Authors\Fabian_Moritz.png" />
     <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\Authors\Martina_Grom.png" />
+    <Content Include="Assets\Authors\Michael_Greth.png" />
+    <Content Include="Assets\Authors\Samuel_Zuercher.jpg" />
+    <Content Include="Assets\Lottery.png" />
     <Content Include="Assets\SmallLogo.png" />
     <Content Include="Assets\snapped.png" />
     <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\Sponsors.js" />
+    <Content Include="Assets\Sponsors\AvePoint.png" />
+    <Content Include="Assets\Sponsors\DataOne.jpg" />
+    <Content Include="Assets\Sponsors\ExpertInside.png" />
+    <Content Include="Assets\Sponsors\ShareConf.jpg" />
+    <Content Include="Assets\Sponsors\TechNet.png" />
+    <Content Include="Assets\Sponsors\UserGroup.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\LightGray.png" />
     <Content Include="Assets\MediumGray.png" />
     <Content Include="Assets\DarkGray.png" />
-    <Content Include="Assets\th.jpg" />
+    <Content Include="Assets\Authors\Thorsten_Hans.jpg" />
     <Content Include="Assets\WideLogo.png" />
   </ItemGroup>
   <ItemGroup>
@@ -162,7 +183,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Downloads\Json45r10\Bin\WinRT\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\Users\LAN\Downloads\Json45r10\Bin\WinRT\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">

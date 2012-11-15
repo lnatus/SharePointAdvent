@@ -16,17 +16,17 @@
     <AppXManifest Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-11-09T15:08:33.895</Modified>
+      <Modified>2012-11-15T15:09:44.294</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\SharePointAdvent.exe">
       <PackagePath>SharePointAdvent.exe</PackagePath>
-      <Modified>2012-11-09T15:01:03.431</Modified>
+      <Modified>2012-11-15T15:09:44.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\SharePointAdvent.pdb">
       <PackagePath>SharePointAdvent.pdb</PackagePath>
-      <Modified>2012-11-09T15:01:03.409</Modified>
+      <Modified>2012-11-15T15:09:44.202</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -40,14 +40,38 @@
       <PackagePath>Newtonsoft.Json.xml</PackagePath>
       <Modified>2012-11-08T12:02:42.539</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Authors.js">
+      <PackagePath>Assets\Authors.js</PackagePath>
+      <Modified>2012-11-15T13:20:28.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Sponsors.js">
+      <PackagePath>Assets\Sponsors.js</PackagePath>
+      <Modified>2012-11-15T13:41:10.024</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\bg.png">
       <PackagePath>Assets\bg.png</PackagePath>
       <Modified>2012-11-09T09:27:23.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Authors\Fabian_Moritz.png">
+      <PackagePath>Assets\Authors\Fabian_Moritz.png</PackagePath>
+      <Modified>2012-11-15T12:45:52.398</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-11-09T15:13:04.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Authors\Martina_Grom.png">
+      <PackagePath>Assets\Authors\Martina_Grom.png</PackagePath>
+      <Modified>2012-11-15T12:32:32.484</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Authors\Michael_Greth.png">
+      <PackagePath>Assets\Authors\Michael_Greth.png</PackagePath>
+      <Modified>2012-11-15T12:41:51.001</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Lottery.png">
+      <PackagePath>Assets\Lottery.png</PackagePath>
+      <Modified>2012-11-15T15:05:36.412</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
@@ -62,6 +86,22 @@
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-11-09T14:47:58.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Sponsors\AvePoint.png">
+      <PackagePath>Assets\Sponsors\AvePoint.png</PackagePath>
+      <Modified>2012-11-15T13:27:10.910</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Sponsors\ExpertInside.png">
+      <PackagePath>Assets\Sponsors\ExpertInside.png</PackagePath>
+      <Modified>2012-11-15T13:27:40.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Sponsors\TechNet.png">
+      <PackagePath>Assets\Sponsors\TechNet.png</PackagePath>
+      <Modified>2012-11-15T13:27:51.621</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Sponsors\UserGroup.png">
+      <PackagePath>Assets\Sponsors\UserGroup.png</PackagePath>
+      <Modified>2012-11-15T13:27:29.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
@@ -85,25 +125,49 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-11-09T15:08:28.348</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\th.jpg">
-      <PackagePath>Assets\th.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Authors\Christian_Glessner.jpg">
+      <PackagePath>Assets\Authors\Christian_Glessner.jpg</PackagePath>
+      <Modified>2012-11-15T12:36:00.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Authors\Christoph_Mueller.jpg">
+      <PackagePath>Assets\Authors\Christoph_Mueller.jpg</PackagePath>
+      <Modified>2012-11-15T12:50:47.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Authors\Daniel_Wessels.jpg">
+      <PackagePath>Assets\Authors\Daniel_Wessels.jpg</PackagePath>
+      <Modified>2012-11-15T12:52:47.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Authors\Samuel_Zuercher.jpg">
+      <PackagePath>Assets\Authors\Samuel_Zuercher.jpg</PackagePath>
+      <Modified>2012-11-15T12:58:53.813</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Sponsors\DataOne.jpg">
+      <PackagePath>Assets\Sponsors\DataOne.jpg</PackagePath>
+      <Modified>2012-11-15T13:32:06.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Sponsors\ShareConf.jpg">
+      <PackagePath>Assets\Sponsors\ShareConf.jpg</PackagePath>
+      <Modified>2012-11-15T13:26:54.425</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Authors\Thorsten_Hans.jpg">
+      <PackagePath>Assets\Authors\Thorsten_Hans.jpg</PackagePath>
       <Modified>2012-11-08T15:23:44.314</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
-      <Modified>2012-11-09T09:57:51.884</Modified>
+      <Modified>2012-11-15T14:12:34.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
-      <Modified>2012-10-12T15:18:24.000</Modified>
+      <Modified>2012-11-15T08:31:11.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
-      <Modified>2012-11-09T10:02:28.934</Modified>
+      <Modified>2012-11-15T14:23:00.191</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-11-09T15:08:33.794</Modified>
+      <Modified>2012-11-15T15:16:14.616</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

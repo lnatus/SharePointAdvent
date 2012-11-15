@@ -15,8 +15,7 @@ namespace SharePointAdvent.Service
         public static async Task<String> GetContentAsync(String url)
         {
             var httpClient = new HttpClient();
-            var res = await httpClient.GetAsync(url);
-            return await res.Content.ReadAsStringAsync();
+            return await httpClient.GetStringAsync(url);
         }
     }
 }

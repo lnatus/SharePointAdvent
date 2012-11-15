@@ -28,12 +28,30 @@
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\Newtonsoft.Json.xml">
       <PackagePath>Newtonsoft.Json.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Authors.js">
+      <PackagePath>Assets\Authors.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Sponsors.js">
+      <PackagePath>Assets\Sponsors.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\bg.png">
       <PackagePath>Assets\bg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Authors\Fabian_Moritz.png">
+      <PackagePath>Assets\Authors\Fabian_Moritz.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Authors\Martina_Grom.png">
+      <PackagePath>Assets\Authors\Martina_Grom.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Authors\Michael_Greth.png">
+      <PackagePath>Assets\Authors\Michael_Greth.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Lottery.png">
+      <PackagePath>Assets\Lottery.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
@@ -45,6 +63,18 @@
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Sponsors\AvePoint.png">
+      <PackagePath>Assets\Sponsors\AvePoint.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Sponsors\ExpertInside.png">
+      <PackagePath>Assets\Sponsors\ExpertInside.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Sponsors\TechNet.png">
+      <PackagePath>Assets\Sponsors\TechNet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Sponsors\UserGroup.png">
+      <PackagePath>Assets\Sponsors\UserGroup.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
@@ -63,8 +93,26 @@
       <PackagePath>Assets\WideLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\th.jpg">
-      <PackagePath>Assets\th.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Authors\Christian_Glessner.jpg">
+      <PackagePath>Assets\Authors\Christian_Glessner.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Authors\Christoph_Mueller.jpg">
+      <PackagePath>Assets\Authors\Christoph_Mueller.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Authors\Daniel_Wessels.jpg">
+      <PackagePath>Assets\Authors\Daniel_Wessels.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Authors\Samuel_Zuercher.jpg">
+      <PackagePath>Assets\Authors\Samuel_Zuercher.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Sponsors\DataOne.jpg">
+      <PackagePath>Assets\Sponsors\DataOne.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Sponsors\ShareConf.jpg">
+      <PackagePath>Assets\Sponsors\ShareConf.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\Assets\Authors\Thorsten_Hans.jpg">
+      <PackagePath>Assets\Authors\Thorsten_Hans.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\SharePointAdvent\SharePointAdvent\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>

@@ -37,6 +37,13 @@ namespace SharePointAdvent.Helper
                     return resource as DataTemplate;
                 }
             }
+            else if (item is LotteryEntry)
+            {
+                if (Application.Current.Resources.TryGetValue("LotteryEntryItemTemplate", out resource))
+                {
+                    return resource as DataTemplate;
+                }
+            }
 
             return base.SelectTemplateCore(item, container);
         }

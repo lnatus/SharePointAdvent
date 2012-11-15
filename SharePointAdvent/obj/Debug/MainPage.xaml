@@ -62,13 +62,12 @@
                     <GroupStyle.HeaderTemplate>
                         <DataTemplate>
                             <Grid Margin="1,0,0,6">
-                                <Button x:ConnectionId='5'
+                                <Button
                                     AutomationProperties.Name="Group Title"
-                                                        
                                     Style="{StaticResource TextPrimaryButtonStyle}" >
                                     <StackPanel Orientation="Horizontal">
                                         <TextBlock Text="{Binding Title}" Margin="3,-7,10,10" Style="{StaticResource GroupHeaderTextStyle}" />
-                                        <TextBlock Text="{StaticResource ChevronGlyph}" FontFamily="Segoe UI Symbol" Margin="0,-7,0,10" Style="{StaticResource GroupHeaderTextStyle}"/>
+                                        <!--<TextBlock Text="{StaticResource ChevronGlyph}" FontFamily="Segoe UI Symbol" Margin="0,-7,0,10" Style="{StaticResource GroupHeaderTextStyle}"/>-->
                                     </StackPanel>
                                 </Button>
                             </Grid>
@@ -104,13 +103,12 @@
                     <GroupStyle.HeaderTemplate>
                         <DataTemplate>
                             <Grid Margin="7,7,0,0">
-                                <Button x:ConnectionId='4'
+                                <Button
                                     AutomationProperties.Name="Group Title"
-                                                        
                                     Style="{StaticResource TextPrimaryButtonStyle}">
                                     <StackPanel Orientation="Horizontal">
                                         <TextBlock Text="{Binding Title}" Margin="3,-7,10,10" Style="{StaticResource GroupHeaderTextStyle}" />
-                                        <TextBlock Text="{StaticResource ChevronGlyph}" FontFamily="Segoe UI Symbol" Margin="0,-7,0,10" Style="{StaticResource GroupHeaderTextStyle}"/>
+                                        <!--<TextBlock Text="{StaticResource ChevronGlyph}" FontFamily="Segoe UI Symbol" Margin="0,-7,0,10" Style="{StaticResource GroupHeaderTextStyle}"/>-->
                                     </StackPanel>
                                 </Button>
                             </Grid>
@@ -174,5 +172,20 @@
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
     </Grid>
+    
+    <Page.BottomAppBar>
+        <AppBar x:Name="MainAppBar" Padding="10,0,10,0" AutomationProperties.Name="Bottom App Bar">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50*"/>
+                    <ColumnDefinition Width="50*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="1" x:Name="PanelRight" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button x:ConnectionId='4' x:Name="BtnRefresh" Style="{StaticResource RefreshAppBarButtonStyle}" Tag="Aktualisieren"                        />
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+    
 </common:LayoutAwarePage>
 

@@ -1,16 +1,16 @@
-﻿using SharePointAdvent.ViewModel;
+﻿using Newtonsoft.Json;
+using SharePointAdvent.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.ApplicationModel.Resources;
 
 namespace SharePointAdvent.Helper
 {
     public class EntryGenerator
     {
-        private static Uri _baseUri = new Uri("ms-appx:///");
-
         public static Group GenerateArticles(List<ArticleEntry> collection)
         {
             var articles = new Group("Kalender");
@@ -24,35 +24,42 @@ namespace SharePointAdvent.Helper
 
         public static Group GenerateSponsors()
         {
-         
-            var sponsors = new Group("Sponsoren");
-            for (var i = 1; i < 11; i++)
+            var sponsorGroup = new Group("Sponsoren");
+            var json = LoadFromResource("Sponsors");
+            var sponsors = JsonConvert.DeserializeObject<List<SponsorEntry>>(json);
+
+            foreach (var sponsor in sponsors)
             {
-                sponsors.Entries.Add(new SponsorEntry
-                {
-                    Logo = new Uri("http://google.de"),
-                    Link = new Uri("http://google.de")
-                });
+                sponsorGroup.Entries.Add(sponsor);
             }
 
-            return sponsors;
+            return sponsorGroup;
         }
 
         public static Group GenerateAuthors()
         {
-            var authors = new Group("Autoren");
-            for (var i = 1; i < 8; i++)
-            {
-                authors.Entries.Add(new AuthorEntry
-                {
-                    Name = string.Format("Name{0}", i),
-                    Image = new Uri(_baseUri, "Assets/th.jpg"),
-                    Topic = string.Format("Topic{0}", i),
-                    Blog = new Uri("http://dotnet-forum.de/blogs/thorstenhans/")
-                });
-            }
+            var authorGroup = new Group("Autoren");
+            var json = LoadFromResource("Authors");
+            var authors = JsonConvert.DeserializeObject<List<AuthorEntry>>(json);
 
-            return authors;
+            foreach (var author in authors)
+            {
+                authorGroup.Entries.Add(author);
+            }
+            return authorGroup;
+        }
+
+        public static Group GenerateLottery()
+        {
+            var lotteryGroup = new Group("Gewinnspiel");
+            lotteryGroup.Entries.Add(new LotteryEntry { Logo = new Uri("ms-appx:///Assets/Lottery.png"), Url = new Uri("http://sharepointadvent.de") });
+            return lotteryGroup;
+        }
+
+        private static String LoadFromResource(String res)
+        {
+            var loader = new ResourceLoader(res);
+            return loader.GetString("JSON");
         }
 
     }

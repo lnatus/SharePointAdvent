@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:SharePointAdvent"
     xmlns:common="using:SharePointAdvent.Common"
-    xmlns:localData="using:SharePointAdvent.Data" xmlns:Helper="using:SharePointAdvent.Helper">
+    xmlns:Helper="using:SharePointAdvent.Helper">
 
     <Application.Resources>
         <ResourceDictionary>
@@ -56,7 +56,15 @@
                     </Border>
                 </Grid>
             </DataTemplate>
-            
+
+            <DataTemplate x:Key="LotteryEntryItemTemplate">
+                <Grid HorizontalAlignment="Left" Width="500" Height="500">
+                    <Border Background="{StaticResource ListViewItemPlaceholderBackgroundThemeBrush}">
+                        <Image Source="{Binding Logo}" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}"/>
+                    </Border>
+                </Grid>
+            </DataTemplate>
+
             <!-- EntryItemTemplatesSnapped -->
 
             <DataTemplate x:Key="ArticleEntryItemTemplateSnapped">
@@ -72,6 +80,7 @@
                     </Border>
                     <StackPanel Visibility="{Binding IsEnabled, Converter={StaticResource BooleanToVisibiltyConverter}}"  Grid.Column="1" Margin="20,0,20,0" VerticalAlignment="Center" >
                         <TextBlock Text="{Binding Author}" Style="{StaticResource ItemTextStyle}" />
+                        <TextBlock Text="Thema des Blogs" Style="{StaticResource ItemTextStyle}" FontWeight="Light" />
                     </StackPanel>
                 </Grid>
             </DataTemplate>
@@ -103,6 +112,19 @@
                     </Border>
                 </Grid>
             </DataTemplate>
+
+            <DataTemplate x:Key="LotteryEntryItemTemplateSnapped">
+                <Grid Margin="6">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Border Background="{StaticResource ListViewItemPlaceholderBackgroundThemeBrush}" Width="160" Height="160">
+                        <Image Source="{Binding Logo}" Stretch="UniformToFill"/>
+                    </Border>
+                </Grid>
+            </DataTemplate>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

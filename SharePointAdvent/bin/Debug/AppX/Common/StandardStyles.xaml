@@ -399,6 +399,13 @@
         </Setter>
     </Style>
 
+
+    <Style x:Key="RefreshAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
+        <Setter Property="AutomationProperties.AutomationId" Value="RefreshAppBarButton"/>
+        <Setter Property="AutomationProperties.Name" Value="Aktualisieren"/>
+        <Setter Property="Content" Value="&#xE117;"/>
+    </Style>
+
     <!-- 
         Standard AppBarButton Styles for use with Button and ToggleButton
     
@@ -526,11 +533,7 @@
         <Setter Property="AutomationProperties.Name" Value="Video"/>
         <Setter Property="Content" Value="&#xE116;"/>
     </Style>
-    <Style x:Key="RefreshAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
-        <Setter Property="AutomationProperties.AutomationId" Value="RefreshAppBarButton"/>
-        <Setter Property="AutomationProperties.Name" Value="Refresh"/>
-        <Setter Property="Content" Value="&#xE117;"/>
-    </Style>
+  
     <Style x:Key="DownloadAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
         <Setter Property="AutomationProperties.AutomationId" Value="DownloadAppBarButton"/>
         <Setter Property="AutomationProperties.Name" Value="Download"/>
