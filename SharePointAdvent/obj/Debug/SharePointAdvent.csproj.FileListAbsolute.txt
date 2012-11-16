@@ -51,13 +51,13 @@ C:\dev\SharePointAdvent\SharePointAdvent\obj\Debug\MainPage.xaml
 C:\dev\SharePointAdvent\SharePointAdvent\obj\Debug\SharePointAdvent.exe
 C:\dev\SharePointAdvent\SharePointAdvent\obj\Debug\SharePointAdvent.pdb
 C:\dev\SharePointAdvent\SharePointAdvent\obj\Debug\SharePointAdvent.csproj.GenerateResource.Cache
-C:\dev\SharePointAdvent\SharePointAdvent\obj\Debug\priconfig.xml.intermediate
-C:\dev\SharePointAdvent\SharePointAdvent\obj\Debug\layout.resfiles.intermediate
-C:\dev\SharePointAdvent\SharePointAdvent\obj\Debug\resources.resfiles.intermediate
-C:\dev\SharePointAdvent\SharePointAdvent\obj\Debug\pri.resfiles.intermediate
 C:\dev\SharePointAdvent\SharePointAdvent\obj\Debug\priconfig.xml
 C:\dev\SharePointAdvent\SharePointAdvent\obj\Debug\layout.resfiles
 C:\dev\SharePointAdvent\SharePointAdvent\obj\Debug\resources.resfiles
 C:\dev\SharePointAdvent\SharePointAdvent\obj\Debug\pri.resfiles
 C:\dev\SharePointAdvent\SharePointAdvent\obj\Debug\LanguageQualifiers.txt
 C:\dev\SharePointAdvent\SharePointAdvent\obj\Debug\ProjectArchitectures.txt
+C:\dev\SharePointAdvent\SharePointAdvent\obj\Debug\priconfig.xml.intermediate
+C:\dev\SharePointAdvent\SharePointAdvent\obj\Debug\layout.resfiles.intermediate
+C:\dev\SharePointAdvent\SharePointAdvent\obj\Debug\resources.resfiles.intermediate
+C:\dev\SharePointAdvent\SharePointAdvent\obj\Debug\pri.resfiles.intermediate

@@ -39,20 +39,21 @@ namespace SharePointAdvent.Helper
         public static Group GenerateAuthors()
         {
             var authorGroup = new Group("Autoren");
-            var json = LoadFromResource("Authors");
-            var authors = JsonConvert.DeserializeObject<List<AuthorEntry>>(json);
-
-            foreach (var author in authors)
-            {
-                authorGroup.Entries.Add(author);
-            }
+           
+            foreach (var item in Constants.Authors.All())
+	{
+		 authorGroup.Entries.Add(item);
+	}
             return authorGroup;
         }
 
         public static Group GenerateLottery()
         {
             var lotteryGroup = new Group("Gewinnspiel");
-            lotteryGroup.Entries.Add(new LotteryEntry { Logo = new Uri("ms-appx:///Assets/Lottery.png"), Url = new Uri("http://sharepointadvent.de") });
+            lotteryGroup.Entries.Add(new LotteryEntry { Title="Die Preise", Logo = new Uri("ms-appx:///Assets/Lottery.png"), Url = new Uri("http://sharepointadvent.de") });
+            lotteryGroup.Entries.Add(new LotteryEntry { Title="Die Aufgabe", Logo = new Uri("ms-appx:///Assets/Lottery.png"), Url = new Uri("http://sharepointadvent.de") });
+            lotteryGroup.Entries.Add(new LotteryEntry { Title="Die Teilnahmebedingungen", Logo = new Uri("ms-appx:///Assets/Lottery.png"), Url = new Uri("http://sharepointadvent.de") });
+            lotteryGroup.Entries.Add(new LotteryEntry { Title="Die Gewinner", Logo = new Uri("ms-appx:///Assets/Lottery.png"), Url = new Uri("http://sharepointadvent.de") });
             return lotteryGroup;
         }
 

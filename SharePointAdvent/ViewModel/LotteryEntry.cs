@@ -11,6 +11,8 @@ namespace SharePointAdvent.ViewModel
     public class LotteryEntry : BindableBase, IEntry
     {
         public Uri Url { get; set; }
-        public Uri Logo { get; set; } 
+        public Uri Logo { get; set; }
+        public String Title { get; set; }
+        public String Tagline { get; set; }
     }
 }
