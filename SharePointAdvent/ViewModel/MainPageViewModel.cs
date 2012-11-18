@@ -23,7 +23,7 @@ namespace SharePointAdvent.ViewModel
             try
             {
                 //Get dynamic content from web url.
-                var json = await DownloadService.GetContentAsync("http://dotnetrocks-web.sharepoint.com/Documents/SharePointAdvent.js");
+                var json = await DownloadService.GetContentAsync("http://db.tt/ZmTiQA63");
                 var articles = JsonConvert.DeserializeObject<List<ArticleEntry>>(json);
                 Groups.Add(EntryGenerator.GenerateArticles(articles));
 
