@@ -23,7 +23,7 @@
             <!--EntryItmeTemplates-->
             
             <DataTemplate x:Key="ArticleEntryItemTemplate">
-                <Grid HorizontalAlignment="Left" Width="250" Height="250">
+                <Grid HorizontalAlignment="Left" Width="160" Height="160">
                     <Border Background="{Binding IsEnabled, Converter={StaticResource BooleanToBackgroundConverter}}">
                         <StackPanel Margin="0,55,0,0" VerticalAlignment="Center" HorizontalAlignment="Center">
                             <TextBlock Text="{Binding Day}" FontSize="80" FontWeight="Bold" Foreground="{StaticResource ListViewItemOverlayForegroundThemeBrush}" Style="{StaticResource TitleTextStyle}" Height="60" Margin="15,0,15,0"/>
@@ -38,7 +38,7 @@
             </DataTemplate>
 
             <DataTemplate x:Key="AuthorEntryItemTemplate">
-                <Grid HorizontalAlignment="Left" Width="250" Height="250">
+                <Grid HorizontalAlignment="Left" Width="160" Height="160">
                     <Border Background="{StaticResource ListViewItemPlaceholderBackgroundThemeBrush}">
                         <Image Source="{Binding Image}" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}"/>
                     </Border>
@@ -50,7 +50,7 @@
             </DataTemplate>
 
             <DataTemplate x:Key="SponsorEntryItemTemplate">
-                <Grid HorizontalAlignment="Left" Width="500" Height="250">
+                <Grid HorizontalAlignment="Left" Width="380" Height="160">
                     <Border Background="{StaticResource ListViewItemPlaceholderBackgroundThemeBrush}">
                         <Image Source="{Binding Logo}" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}"/>
                     </Border>
@@ -58,7 +58,7 @@
             </DataTemplate>
 
             <DataTemplate x:Key="LotteryEntryItemTemplate">
-                <Grid HorizontalAlignment="Left" Width="500" Height="500">
+                <Grid HorizontalAlignment="Left" Width="160" Height="160">
                     <Border Background="{StaticResource ListViewItemPlaceholderBackgroundThemeBrush}">
                         <Image Source="{Binding Logo}" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}"/>
                     </Border>
